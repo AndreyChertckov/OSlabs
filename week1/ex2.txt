@@ -1,0 +1,13 @@
+    1  ls
+    2  uname
+    3  whoami
+    4  mkdir lab1
+    5  cd lab1
+    6  cd ..
+    7  mv lab1 week1
+    8  ls
+    9  cd week1/
+   10  ls -r /usr/bin | grep gcc > ex1.txt
+   11  ls
+   12  history
+   13  history > ex2.txt
