@@ -10,11 +10,11 @@ void main() {
 			exit(1);
 			break;
 		case 0:
-			printf("Hello from child %d\n", getpid()-n);
+			printf("Hello from child [%d - %d]\n", getpid(), n);
 			exit(0);
 			break;
 		default:
-			printf("Hello from parent %d\n", getpid()-n);
+			printf("Hello from parent [%d - %d]\n", getpid(), n);
 			exit(0);
 			break;
 	}
