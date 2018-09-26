@@ -16,7 +16,7 @@ int main() {
 			write(file_descriptors[1], &child_2, sizeof(child_2)); // send to child 1 with pipe
 
 			int status = 0;
-			waitpid(child_2,&status,0); // doesnt catch sigstop, because sigstop is handled in kernel
+			waitpid(child_2,&status,WUNTRACED); 
 			printf("Status: %d\n", status);
 		}else {
 			// child 2
