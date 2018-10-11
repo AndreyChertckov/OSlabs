@@ -1,0 +1,1 @@
+A physical address is adress to exact addres in the RAM. A virtual address is address which transform in physical address by using pages.

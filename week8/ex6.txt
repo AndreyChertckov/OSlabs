@@ -1,0 +1,4 @@
+1. 8 KB = 2^13 bits.
+2. Hence page offset is 13 bits.
+3. 16 - 13 = 3 bit is for entries.
+4. 2^3 = 8 entries are needed.
